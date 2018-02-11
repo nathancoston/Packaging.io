@@ -1,0 +1,108 @@
+/* Add a black background color to the top navigation */
+
+* {
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.topnav {
+  position: fixed;
+  background-color: #595959;
+  overflow: hidden;
+  top: 0px;
+  width: 100%;
+  z-index: 999;
+}
+
+
+/* Style the links inside the navigation bar */
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 13px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-size: 25px;
+}
+
+
+/* Change the color of links on hover */
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* Add a color to the active/current link */
+
+.topnav a.active {
+  background-color: #4C7F50;
+  color: white;
+}
+
+#banner {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-6/htmlcss1-img_tahoe.jpeg");
+  background-size: cover;
+  background-position: bottom center;
+  height: 700px;
+  width: 100%;
+}
+
+#banner .content h1 {
+  border: 3px solid white;
+  position: relative;
+  top: 50px;
+  width: 400px;
+  margin: 0 auto;
+  color: white;
+  font-size: 50px;
+}
+.caption {
+  padding: 50px;
+  font-size: 20px;
+  text-align: center;
+  color: #f2f2f2;
+}
+.half {
+  width: 50%;
+  display: block;
+  float: left;
+  padding: 10px 0px 0px 10px;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+#contact {
+  border-radius: 3px;
+  display: inline-block;
+  padding: 14px;
+  width: 100px;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
